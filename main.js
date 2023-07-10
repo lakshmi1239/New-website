@@ -165,7 +165,7 @@ console.log(arr);
 // array ends
 
 const website=[
-   { id:0, image:"ima5.jfif",title:"German Silver Earrings",prize:65 ,rateing:"4.5"},
+   { id:0, image:"assets\images\img-1.jpg",title:"German Silver Earrings",prize:65 ,rateing:"4.5"},
     {id:1,image: "img6.jfif",title:"Bella Jewellery Earrings",prize:95,rateing:"5"},
    { id:2,image:"img3.jfif",title:"Glorious Naya Casting Earring",prize:110,rateing:"4.8"},
    { id:3,image:"img4.jfif",title:"Traditional Enchanting Gold Earrings",prize:130,rateing:"3.5"},
@@ -178,7 +178,7 @@ const website=[
  let data = "";
  website.map(function datas(items){
     data += `
-    <div class="col-lg-4" data-id=${items.id}>
+    <div class="col-4" data-id=${items.id}>
     <div class="cardsdata">
     <img src=${items.image} alt="">
     <h2>${items.title}</h2>
